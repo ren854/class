@@ -1,78 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lab_02</title>
+    <title>lab_04</title>
+    <style>
+        body {
+            font: 100% Lucida Sans, Verdana;
+            margin: 20px;
+            line-height: 26px;
+        }
+
+        th {
+            background-color: #4CAF50;
+            line-height: 30px
+        }
+
+        .bod td,
+        .bod_2 td {
+            background-color: cornsilk;
+            line-height: 26px
+        }
+
+        .reast td {
+            background-color: crimson;
+            line-height: 26px
+        }
+    </style>
 </head>
+
 <body>
     <table border="1">
-        <tr>
-            <th></th>
+        <tr class="title_blank">
+            <td></td>
             <th>mon</th>
             <th>tu</th>
-            <th>wen</th>  
+            <th>wen</th>
             <th>the</th>
             <th>fri</th>
-        </tr>  
-        <tr>    
-            <td>09:00</td>    
-            <td rowspan="3">
-                <p style="font-family: 'Courier New'">ptyhon</p>
-            </td>  
-            <td rowspan="3">
-                <p style="font-family: 'Verdana'">web</p>
-            </td>
-            <td rowspan="3">
-                <p style="font-family: 'Arial'">soft</p>
-            </td>
-            <td rowspan="3">
-                <p style="font-family: 'Courier New'">ptyhon</p>
-            </td>
-            <td rowspan="3">
-                <p style="font-family: 'Verdana'">web</p>
-            </td>
-        </tr>  
-        <tr>    
-            <td>10:00</td>     
-        </tr>
-        <tr>    
-            <td>11:00</td>    
         </tr>
-        <tr style="background-color: aqua;">    
-            <td>12:00</td>    
+
+
+        <tr class="bod">
+            <th>09:00</th>
+            <td rowspan="3">ptyhon</td>
+            <td rowspan="3">web</td>
+            <td rowspan="3">soft</td>
+            <td rowspan="3">ptyhon</td>
+            <td rowspan="3">web</td>
+        </tr>
+        <tr>
+            <th>10:00</th>
+        </tr>
+        <tr>
+            <th>11:00</th>
+        </tr>
+        <tr class="reast">
+            <th>12:00</th>
             <td colspan="5">
                 <p style="text-align: center">res
                 </p>
-            </td>  
-        </tr> 
-        <tr>    
-            <td>13:00</td>    
-            <td rowspan="3">
-                <p style="font-family: 'Courier New'">ptyhon</p>
-            </td>  
-            <td rowspan="3">
-                <p style="font-family: 'Verdana'">web</p>
-            </td>
-            <td rowspan="3">
-                <p style="font-family: 'Arial'">概論</p>
-            </td>
-            <td rowspan="3">
-                <p style="font-family: 'Courier New'">ptyhon</p>
-            </td>
-            <td rowspan="3">
-                <p style="font-family: 'Verdana'">web</p>
-            </td>
+            </td>
         </tr>
-        <tr>    
-            <td>14:00</td>    
-        </td>
-        <tr>    
-            <td>15:00</td> 
-        </td>
-    </table>
+        <tr class="bod_2">
+            <th>13:00</th>
+            <td rowspan="3">ptyhon</td>
+            <td rowspan="3">web</td>
+            <td rowspan="3">概論</td>
+            <td rowspan="3">ptyhon</td>
+            <td rowspan="3">web</td>
+        </tr>
+        <tr>
+            <th>14:00</th>
+            </td>
+        <tr>
+            <th>15:00</th>
+            </td>
+        </tr>
+        
+    </table>
+    <nav>
+        <a href="index.html">index</a>
+    </nav>
 
-    
-      
+
 </body>
+
 </html>
