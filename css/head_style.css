@@ -3,9 +3,10 @@ div.head{
     align-items: center;
     justify-content:center;
     /*background-color: cadetblue;*/
+    line-height: 100%;
     text-transform: capitalize;
     border: 5px;
-    height: 25vh;
+    height: 35vh;
     font-size: 15vh;;
     color: rgb(112, 231, 82);
 }

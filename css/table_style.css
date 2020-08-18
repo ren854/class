@@ -50,5 +50,6 @@ div.tabl {
     border-radius: 20px;
     text-align: center;
     display: flex;
+    flex-flow: row wrap;
     
 }
