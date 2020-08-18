@@ -1,0 +1,9 @@
+.other {
+    text-transform: capitalize;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: center;
+    font-size: 15vh;
+    color: rgb(255, 0, 0);
+}

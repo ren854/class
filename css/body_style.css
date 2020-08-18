@@ -1,0 +1,11 @@
+body {
+    font: 100% Lucida Sans, Verdana;
+    margin: 20px;
+    line-height: 26px;
+    display: flex;
+    flex-flow: row wrap;
+    height: 95vh;
+    background-image: url("https://millionlive.idolmaster.jp/theaterdays/sp/images/top/spbgr_4.png");
+    
+    background-position:left 50vh;
+}

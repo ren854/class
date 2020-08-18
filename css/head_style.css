@@ -1,0 +1,11 @@
+div.head{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /*background-color: cadetblue;*/
+    text-transform: capitalize;
+    border: 5px;
+    height: 25vh;
+    font-size: 15vh;;
+    color: rgb(112, 231, 82);
+}
