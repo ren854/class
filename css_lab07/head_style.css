@@ -1,0 +1,9 @@
+div.head{
+    /*background-color: cadetblue;*/
+    line-height: 100%;
+    text-transform: capitalize;
+    border: 5px;
+    height: 35vh;
+    font-size: 10vh;;
+    color: rgb(112, 231, 82);
+}
