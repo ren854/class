@@ -5,7 +5,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     
-    background-image: url("https://millionlive.idolmaster.jp/theaterdays/sp/images/top/spbgr_4.png");
-    
+    /*background-image: url("https://millionlive.idolmaster.jp/theaterdays/sp/images/top/spbgr_4.png");
+    */
     background-position:left 50vh;
 }

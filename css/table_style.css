@@ -1,15 +1,12 @@
 
 th {
     background-color: #fffc4b;
-    /*line-height: 30px;
-    /*font-style: oblique*/
     text-transform: capitalize;
     border: 5px;
     /*overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;*/
-    width: 300px;
-    /*border-radius: 20px;*/
+    width: 60%;
     
 }
 
@@ -23,13 +20,10 @@ th {
 
 td {
     text-transform: capitalize;
-    border: 5px;
-    /*border-radius: 20px;*/
-    
+    border: 5px;    
 }
 
-.bod td,
-.bod_2 td {
+.bod td,.bod_2 td {
     background-color: cornsilk;
     line-height: 26px;
     border: 5px;
@@ -45,11 +39,20 @@ td {
     border: 5px;
 }
 
-div.tabl {
+.tabl{
     border: 3px solid;
     border-radius: 20px;
     text-align: center;
     display: flex;
     flex-flow: row wrap;
-    
+    max-width: fit-content;
+    justify-content: center;
+}
+
+
+.tabl_2{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    max-width: fit-content;
 }
